@@ -24,10 +24,12 @@ $tiny: 8px;
 $small: 16px;
 $medium: 32px;
 $large: 56px;
+$xl: 100px;
 $huge: 240px;
 
 //font size
 $very-big: $huge;
+$big: $xl;
 $h1: $large;
 $h2: $medium;
 $h3: 20px;
@@ -56,34 +58,51 @@ $green-box-shadow: $shadow-offset-x $shadow-offset-y $shadow-blur $green-shadow-
   .push-down{
     margin-top: $large;
   }
+  .move-right{
+    margin-left: $huge;
+  }
+  .move-left{
+    margin-right: $huge;
+  } 
   .negative-margin {
     margin-top: -85px;
+  }
 }
+.flexing{
+  display: flex;
+  justify-content: flex-end;
 }
 
 .colors{
-.light-background{
-  background-color: $background-white;
-}
-  .pieChart-colors{
-    .blueberry{
-      background-color: $blueberry;
-    }
-    .turquoise{
-      background-color: $turquoise;
-    }
-    .plum{
-      background-color: $plum;
-    }
-    .yellowGreen{
-      background-color: $yellowGreen;
-    }
+  .light-background{
+    background-color: $background-white;
+  }
+  .green{
+    background-color: $green;
+  }
+
+    .pieChart-colors{
+      .blueberry{
+        background-color: $blueberry;
+      }
+      .turquoise{
+        background-color: $turquoise;
+      }
+      .plum{
+        background-color: $plum;
+      }
+      .yellowGreen{
+        background-color: $yellowGreen;
+      }
   }
 }
 
 .font-size{
   .very-big{
     font-size: $huge;
+  }
+  .big{
+    font-size: $big;
   }
   .h1{
     font-size: $h1;
@@ -130,5 +149,21 @@ $green-box-shadow: $shadow-offset-x $shadow-offset-y $shadow-blur $green-shadow-
 .rounded-corners{
   border-radius: $large;
 }
+.align-text-right{
+  text-align:right;
+}
 
+.footer-size{
+  min-height: $huge;
+}
+
+.line {
+  width: 100%; 
+  height: 1px; 
+  border-top: 1px solid $green-shadow;
+}
+a{
+  text-decoration: none;
+  color: $text-white;
+}
 

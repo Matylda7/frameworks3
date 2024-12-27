@@ -8,12 +8,26 @@
 .margin .push-down {
   margin-top: 56px;
 }
+.margin .move-right {
+  margin-left: 240px;
+}
+.margin .move-left {
+  margin-right: 240px;
+}
 .margin .negative-margin {
   margin-top: -85px;
 }
 
+.flexing {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .colors .light-background {
   background-color: #F9F9F9;
+}
+.colors .green {
+  background-color: #336566;
 }
 .colors .pieChart-colors .blueberry {
   background-color: #637CEF;
@@ -30,6 +44,9 @@
 
 .font-size .very-big {
   font-size: 240px;
+}
+.font-size .big {
+  font-size: 100px;
 }
 .font-size .h1 {
   font-size: 56px;
@@ -73,4 +90,23 @@
 
 .rounded-corners {
   border-radius: 56px;
+}
+
+.align-text-right {
+  text-align: right;
+}
+
+.footer-size {
+  min-height: 240px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #203D3E;
+}
+
+a {
+  text-decoration: none;
+  color: #ECF1F1;
 }
