@@ -83,6 +83,15 @@ $green-box-shadow: $shadow-offset-x $shadow-offset-y $shadow-blur $green-shadow-
   .negative-margin {
     margin-top: -85px;
   }
+  .spacing-100{
+    margin-bottom: $large;
+  }
+  .section-spacing{
+    margin-bottom: $huge;
+  }
+}
+.padding-100{
+  padding-bottom: $large;
 }
 .flexing{
   display: flex;
