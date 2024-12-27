@@ -1,7 +1,40 @@
 //coment for the sake of it
 
 //variables
+
+//colors
 $background-white: #F9F9F9;
+$green: #336566;
+$light-shadow: #D9D9D9;
+$green-shadow:#203D3E;
+
+// text colors
+$text-white: #ECF1F1;
+$text-dark: #203D3E;
+
+//sizing
+$tiny: 8px;
+$small: 16px;
+$medium: 32px;
+$large: 56px;
+
+//font size
+$h1: $large;
+$h2: $medium;
+$h3: 20px;
+$p: $small;
+
+//box shadow settings
+$light-shadow-color: $light-shadow;
+$green-shadow-color: $green-shadow;
+$shadow-offset-x: 4px;
+$shadow-offset-y: 8px;
+$shadow-blur: 0px;
+
+//box shadow variables
+$light-box-shadow: $shadow-offset-x $shadow-offset-y $shadow-blur $light-shadow-color;
+$green-box-shadow: $shadow-offset-x $shadow-offset-y $shadow-blur $green-shadow-color;
+
 
 .full-screen-image {
     width: 100%; 
@@ -11,5 +44,50 @@ $background-white: #F9F9F9;
   }
 
 .negative-margin {
-    margin-top: -60px;
+    margin-top: -85px;
 }
+
+.light-background{
+  background-color: $background-white;
+}
+
+.font-size{
+  .h1{
+    font-size: $h1;
+  }
+  .h2{
+    font-size: $h2;
+  }
+  .h3{
+    font-size: $h3;
+  }
+  .p{
+    font-size: $p;
+  }
+}
+.text-color{
+  .black-text{
+    color: $text-dark;
+  }
+  .white-text{
+    color: $text-white;
+  }
+}
+.neighbours-in-nature{
+  padding-top: $large;
+  padding-bottom: $large;
+  border-radius: $large;
+  margin-left: $medium;
+
+  box-shadow: $light-box-shadow;
+}
+
+.nav-buttons{
+  background-color: $green;
+  box-shadow: $green-box-shadow;
+  border-radius: $medium;
+  font-size: $h2;
+
+}
+
+

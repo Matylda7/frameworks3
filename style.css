@@ -6,5 +6,44 @@
 }
 
 .negative-margin {
-  margin-top: -60px;
+  margin-top: -85px;
+}
+
+.light-background {
+  background-color: #F9F9F9;
+}
+
+.font-size .h1 {
+  font-size: 56px;
+}
+.font-size .h2 {
+  font-size: 32px;
+}
+.font-size .h3 {
+  font-size: 20px;
+}
+.font-size .p {
+  font-size: 16px;
+}
+
+.text-color .black-text {
+  color: #203D3E;
+}
+.text-color .white-text {
+  color: #ECF1F1;
+}
+
+.neighbours-in-nature {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  border-radius: 56px;
+  margin-left: 32px;
+  box-shadow: 4px 8px 0px #D9D9D9;
+}
+
+.nav-buttons {
+  background-color: #336566;
+  box-shadow: 4px 8px 0px #203D3E;
+  border-radius: 32px;
+  font-size: 32px;
 }
