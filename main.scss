@@ -8,6 +8,13 @@ $green: #336566;
 $light-shadow: #D9D9D9;
 $green-shadow:#203D3E;
 
+//pie chart colors
+$blueberry: #637CEF;
+$turquoise: #2AA0A4;
+$plum: #9373C0;
+$yellowGreen: #13A10E;
+
+
 // text colors
 $text-white: #ECF1F1;
 $text-dark: #203D3E;
@@ -17,8 +24,10 @@ $tiny: 8px;
 $small: 16px;
 $medium: 32px;
 $large: 56px;
+$huge: 240px;
 
 //font size
+$very-big: $huge;
 $h1: $large;
 $h2: $medium;
 $h3: 20px;
@@ -43,15 +52,39 @@ $green-box-shadow: $shadow-offset-x $shadow-offset-y $shadow-blur $green-shadow-
     object-position: center center; 
   }
 
-.negative-margin {
+.margin{
+  .push-down{
+    margin-top: $large;
+  }
+  .negative-margin {
     margin-top: -85px;
 }
+}
 
+.colors{
 .light-background{
   background-color: $background-white;
 }
+  .pieChart-colors{
+    .blueberry{
+      background-color: $blueberry;
+    }
+    .turquoise{
+      background-color: $turquoise;
+    }
+    .plum{
+      background-color: $plum;
+    }
+    .yellowGreen{
+      background-color: $yellowGreen;
+    }
+  }
+}
 
 .font-size{
+  .very-big{
+    font-size: $huge;
+  }
   .h1{
     font-size: $h1;
   }
@@ -88,6 +121,14 @@ $green-box-shadow: $shadow-offset-x $shadow-offset-y $shadow-blur $green-shadow-
   border-radius: $medium;
   font-size: $h2;
 
+}
+.rounded-image{
+  border-radius: $large;
+  min-height: 50vh;
+}
+
+.rounded-corners{
+  border-radius: $large;
 }
 
 

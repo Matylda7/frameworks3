@@ -5,14 +5,32 @@
   object-position: center center;
 }
 
-.negative-margin {
+.margin .push-down {
+  margin-top: 56px;
+}
+.margin .negative-margin {
   margin-top: -85px;
 }
 
-.light-background {
+.colors .light-background {
   background-color: #F9F9F9;
 }
+.colors .pieChart-colors .blueberry {
+  background-color: #637CEF;
+}
+.colors .pieChart-colors .turquoise {
+  background-color: #2AA0A4;
+}
+.colors .pieChart-colors .plum {
+  background-color: #9373C0;
+}
+.colors .pieChart-colors .yellowGreen {
+  background-color: #13A10E;
+}
 
+.font-size .very-big {
+  font-size: 240px;
+}
 .font-size .h1 {
   font-size: 56px;
 }
@@ -46,4 +64,13 @@
   box-shadow: 4px 8px 0px #203D3E;
   border-radius: 32px;
   font-size: 32px;
+}
+
+.rounded-image {
+  border-radius: 56px;
+  min-height: 50vh;
+}
+
+.rounded-corners {
+  border-radius: 56px;
 }
