@@ -1,8 +1,17 @@
-.full-screen-image {
+.images .full-screen-image {
   width: 100%;
   height: 100vh;
   object-fit: cover;
   object-position: center center;
+}
+.images .smaller-image {
+  width: 15%;
+}
+.images .medium-image {
+  width: 70%;
+}
+.images .medium-image1 {
+  width: 50%;
 }
 
 .margin .push-down {
@@ -112,4 +121,7 @@
 a {
   text-decoration: none;
   color: #ECF1F1;
+}
+a .green-box-shadow {
+  box-shadow: 4px 8px 0px #203D3E;
 }
